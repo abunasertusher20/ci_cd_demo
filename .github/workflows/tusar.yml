@@ -13,8 +13,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Git Checkout Koran
-            uses: actions/checkout@v2
+              uses: actions/checkout@v2
+
             - name: Read the Txt file
-            run: |
+              run: |
                 ls -l
                 cat tusar.txt
